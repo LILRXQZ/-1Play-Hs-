@@ -1,12 +1,3 @@
-const Discord = require("discord.js");
-const client = new Discord.Client();
-client.on('ready', () => {
-  client.user.setGame(` By Suhaib #4272 .`,'https://www.twitch.tv/v5bz');
-  console.log('---------------');
-  console.log('Desert Bot Is Online')
-  console.log('---------------')
-});
-
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
